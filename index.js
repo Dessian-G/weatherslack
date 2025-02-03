@@ -3,7 +3,7 @@ async function getWeather() {
   const weatherDiv = document.getElementById("weather");
   const errorDiv = document.getElementById("error");
   const apiKey = "ce884eb144d016a253cc540cf4483987";
-  const url = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${location}`;
+  const url = `https://api.weatherstack.com/current?access_key=${apiKey}&query=${location}`;
 
   // Clear previous results
   weatherDiv.style.display = "none";
